@@ -1,0 +1,173 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+
+.background {
+    background:url(/images/background.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 165vh;
+    opacity: 80%;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+ .row > .sign {
+    background-color: black;
+    height: 728px;
+    width: 450px;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: auto;
+    margin-left: 8rem;
+}
+.sign >.form input {
+    width: 340px;
+    height: 56px;
+    background-color: transparent;
+    padding: none;
+    outline: none;
+    color: white;
+    
+}
+.sign >.form input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+#btn {
+    background-color: red;
+    width: 340px;
+    height: 40px;
+    border: none;
+    margin-right: 5rem;
+    border-radius: 5px;
+}
+#btn-1 {
+    background-color: rgb(59, 55, 55);
+    width: 340px;
+    height: 40px;
+    border: none;
+    margin-right: 5rem;
+    border-radius: 5px;
+}
+.form > a {
+    color: white;
+    text-decoration: none;
+}
+#top {
+    margin-top: 100px;
+}
+.sign p {
+        font-size: 15px;
+}
+.form > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+#a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#a:hover {
+    text-decoration: underline;
+}
+/* footer */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+/* .col-6 > a{
+    color: white;
+} */
+.col-6 p a {
+    color: white;
+    margin-top: 50px;
+}
+.margin {
+    margin-top: 40px;
+}
+footer p a {
+    margin-left: 40px;
+}
+
+
+#language {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: none;
+}
+#language:focus {
+    border: 2px solid white;
+}
+
+/* Media queries */
+/* Mobile devices */
+@media (min-width: 1px) and (max-width: 575px) {
+     .background {
+   background:black;
+    background-position: center;
+    
+}
+img {
+    float: left;
+    margin-left: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.row > .sign {
+    background-color: transparent;
+    height: 520px;
+    width: 450px;
+    text-align: center;
+}
+.sign p {
+    font-size: 10px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+html, body {
+    overflow-x: hidden;
+}
+footer {
+    display: none;
+    height: 10px;
+}
+/* .sign >.form input {
+    margin-bottom: 10px;
+} */
+}
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .background {
+   background:black;
+    background-position: center;
+    
+}
+img {
+    float: left;
+    margin-left: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.row > .sign {
+    background-color: transparent;
+    height: 520px;
+    width: 450px;
+    text-align: center;
+}
+footer {
+    border-top: 2px solid rgb(79, 71, 71);
+    width: 100%;
+    height: 120px;
+    background-attachment: fixed;
+}
+ }
+/* Medium and Large devices */
